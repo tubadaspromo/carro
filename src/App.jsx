@@ -52,10 +52,12 @@ export default function App() {
     <main className="page">
       <div className="card">
         <p className="pill">Promoções automotivas todos os dias</p>
+        <p className="gratuito">100% gratuito</p>
 
         <img className="logo" src={logo} alt="Tuba Car, o tubarão das promoções automotivas" width="900" height="785" />
 
         <h1>Economize com seus produtos automotivos.</h1>
+        <p className="lead">Entre no grupo e receba as melhores ofertas de acessórios, cuidados e ferramentas.</p>
         <ul className="temas">
           {CATEGORIAS.map((c) => <li key={c}>{c}</li>)}
         </ul>

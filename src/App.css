@@ -34,10 +34,11 @@
   font-weight: 600;
 }
 
-.logo { display: block; width: min(300px, 78%); height: auto; margin: 22px auto 6px; }
+.gratuito { position: relative; z-index: 1; display: inline-block; margin: 16px 0 0; padding: 8px 20px; border-radius: 999px; background: var(--green); color: #fff; font-size: 14px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; box-shadow: 0 6px 18px #1fae5566; }
+.logo { display: block; width: min(300px, 78%); height: auto; margin: 12px auto 6px; }
 
 h1 {
-  margin: 16px 0 20px;
+  margin: 16px 0 10px;
   font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
   font-weight: 800;
   font-style: italic;
@@ -48,6 +49,7 @@ h1 {
   letter-spacing: -.01em;
   color: var(--ink);
 }
+.lead { margin: 0 auto 20px; max-width: 400px; font-size: 18px; line-height: 1.45; color: var(--muted); }
 .temas { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0; padding: 0; list-style: none; }
 .temas li { padding: 6px 14px; border: 1px solid #d5deea; border-radius: 999px; font-size: 14px; font-weight: 500; color: var(--muted); }
 .membros { margin: 22px 0 18px; font-size: 16px; color: var(--muted); }
