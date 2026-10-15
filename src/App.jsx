@@ -58,10 +58,6 @@ export default function App() {
 
         <h1>Economize com seus produtos automotivos.</h1>
         <p className="lead">Entre no grupo e receba as melhores ofertas de acessórios, cuidados e ferramentas.</p>
-        <ul className="temas">
-          {CATEGORIAS.map((c) => <li key={c}>{c}</li>)}
-        </ul>
-        <p className="membros"><strong>Mais de 30 mil membros</strong> economizando todos os dias</p>
 
         <div className="grupos">
           {GROUPS.map((g, i) =>
@@ -85,6 +81,10 @@ export default function App() {
           )}
         </div>
         <p className="aviso">O grupo é gratuito e as vagas do WhatsApp são limitadas.</p>
+        <p className="membros"><strong>Mais de 30 mil membros</strong> economizando todos os dias</p>
+        <ul className="temas">
+          {CATEGORIAS.map((c) => <li key={c}>{c}</li>)}
+        </ul>
 
         <hr />
 
